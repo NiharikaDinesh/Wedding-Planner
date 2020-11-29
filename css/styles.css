@@ -1,0 +1,191 @@
+
+#title{
+  background-image: url('main.jpg');
+  height: 800px;
+  background-position: center;
+
+
+}
+
+a{
+    font-size: 25px;
+}
+span {
+  content: "\26A4";
+  font-size: 40px;
+  color: white;
+  margin-left: 70px;
+  margin-right: 30px;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family:"Montserrat"
+}
+
+#features{
+  background: #E97451;
+
+   /* padding: 7% 15%; */
+   /* position: relative; */
+}
+
+#wedding{
+  background: #da9100;
+}
+
+
+#cat{
+  background: #E97451;
+}
+.catimg{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  height:200px;
+  width:200px;
+  transform: rotate(25deg);
+  animation: roll 8s 5;
+   transform: rotate(30deg);
+ }
+
+ @keyframes roll {
+   0% {
+     transform: rotate(0);
+   }
+   100% {
+     transform: rotate(360deg);
+   }
+ }
+
+.catimg1{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  height:200px;
+  width:200px;
+  transform: rotate(-25deg);
+  animation: roll 8s 4;
+   transform: rotate(30deg);
+ }
+
+ @keyframes roll {
+   0% {
+     transform: rotate(0);
+   }
+   100% {
+     transform: rotate(360deg);
+   }
+ }
+#photography{
+  background: #da9100
+}
+
+.carousel-item{
+  height: 500px;
+  width:500px;
+}
+.carousel-item img{
+  height: 500px;
+  width:600px;
+}
+em{
+float: right;
+  margin-left: 200px;
+  font-size: 30px;
+  width:400px;
+  margin-top: 200px;
+}
+
+li{
+  list-style-type: none;
+}
+
+#footer{
+    background: #E97451;
+    padding: 1% 5%;
+    text-align: center;
+}
+
+.foo{
+  padding: 20px 18px;
+}
+
+.card{
+  margin-left: 20px;
+  margin-top: 20px;
+
+
+}
+.card:hover{
+  transform: scale(1.2);
+}
+.card-img-top{
+  height: 300px;
+  width: 250px;
+}
+
+.south{
+  height: 300px;
+  width: 300px;
+  animation: shimmy 5s infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes shimmy {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(20px, 50px);
+    }
+  }
+
+.dets{
+  padding-right:0;
+  margin: 0;
+}
+
+#tes{
+  margin-bottom: 10px;
+}
+
+.test{
+  height: 300px;
+  width:900px;
+}
+.tesp{
+  font-size: 20px;
+}
+
+.south1{
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+
+/* <span>&#10046;</span>
+span {
+  content: "\273E";
+}
+
+E97451
+da9100 */
